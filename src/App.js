@@ -6,7 +6,7 @@ function App() {
     <div className='h-screen bg-cream'>
       <div className='flex h-screen justify-center content-center items-center'>
         <div className='flex flex-col sm:flex-row  justify-center content-center '>
-          <div className='bg-[url("/public/images/image-product-mobile.jpg")] sm:bg-[url("/public/images/image-product-desktop.jpg")] bg-cover bg-center bg-no-repeat w-full sm:w-[320px] min-h-[240px] rounded-t-lg sm:rounded-l-lg'></div>
+          <div className='bg-[url("/public/images/image-product-mobile.jpg")] sm:bg-[url("/public/images/image-product-desktop.jpg")] bg-cover bg-center bg-no-repeat w-full sm:w-[320px] min-h-[240px] rounded-tl-lg sm:rounded-bl-lg rounded-tr-lg sm:rounded-tr-none'></div>
           <div className='bg-white w-[320px] p-6 rounded-bl-lg rounded-br-lg sm:rounded-bl-none sm:rounded-r-lg'>
             <p className='font-montserrat text-sm sm:text-normal font-thin text-darkgrayishblue tracking-4'>
               PERFUME
