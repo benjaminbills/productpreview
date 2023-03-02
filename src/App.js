@@ -17,19 +17,19 @@ function App() {
             <p className='text-darkgrayishblue tracking-wide text-sm'>
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfumer-Creator for the House of CHANEL.
-              <div className='flex items-center pt-4 sm:pt-8  '>
-                <p className='sm:text-4xl text-3xl text-darkcyan font-bold pr-4 font-fraunces'>
-                  $149.99
-                </p>
-                <p className='line-through '>$169.99</p>
-              </div>
-              <button className=' font-montserrat font-medium bg-darkcyan flex w-full p-3 mt-5 text-white justify-center items-center rounded-lg active:bg-green-900'>
-                <span className='pr-2'>
-                  <img src='/images/icon-cart.svg' alt='cart icon' />
-                </span>
-                Add to Cart
-              </button>
             </p>
+            <div className='flex items-center pt-4 sm:pt-8  '>
+              <p className='sm:text-4xl text-3xl text-darkcyan font-bold pr-4 font-fraunces'>
+                $149.99
+              </p>
+              <p className='line-through '>$169.99</p>
+            </div>
+            <button className=' font-montserrat font-medium bg-darkcyan flex w-full p-3 mt-5 text-white justify-center items-center rounded-lg active:bg-green-900'>
+              <span className='pr-2'>
+                <img src='/images/icon-cart.svg' alt='cart icon' />
+              </span>
+              Add to Cart
+            </button>
           </div>
         </div>
       </div>
