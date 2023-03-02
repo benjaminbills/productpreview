@@ -25,7 +25,7 @@ function App() {
               </div>
               <button className=' font-montserrat font-medium bg-darkcyan flex w-full p-3 mt-5 text-white justify-center items-center rounded-lg active:bg-green-900'>
                 <span className='pr-2'>
-                  <img src='/images/icon-cart.svg' />
+                  <img src='/images/icon-cart.svg' alt='cart icon' />
                 </span>
                 Add to Cart
               </button>
